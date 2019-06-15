@@ -14,7 +14,8 @@
     },
     "autoload":{
         "psr-4": {
-            "DesignPatterns\\": "app/"
+            "DesignPatterns\\": "app/",
+            "App\\": "ser/"
         }
     }
 }
