@@ -1,0 +1,20 @@
+{
+    "name": "administrator/desiner",
+    "description":"设计模式",
+    "version": "1.0.1",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lcgwhat",
+            "email": "348437207@qq.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^8.2"
+    },
+    "autoload":{
+        "psr-4": {
+            "DesignPatterns\\": "app/"
+        }
+    }
+}

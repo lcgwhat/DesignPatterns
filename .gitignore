@@ -1,0 +1,16 @@
+.idea
+composer.lock
+*.log
+robots.txt
+thinkphp
+database.php
+runtime/
+public/upload/
+public/gravatar/
+public/ueditor/php/upload/
+public/static/css/
+public/static/js/
+public/static/images/
+public/static/img/
+public/dist/
+vendor
