@@ -1,0 +1,26 @@
+<phpunit bootstrap="vendor/autoload.php"
+         colors="true"
+         convertDeprecationsToExceptions="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         beStrictAboutTestsThatDoNotTestAnything="true">
+    <testsuites>
+        <testsuite name="validationTest">
+            <directory suffix=".php">tests/Test</directory>
+        </testsuite>
+    </testsuites>
+    <coverage cacheDirectory="cache"
+              includeUncoveredFiles="true"
+              processUncoveredFiles="true"
+              pathCoverage="false"
+              ignoreDeprecatedCodeUnits="true"
+              disableCodeCoverageIgnore="true">
+        <include>
+            <directory suffix=".php">src</directory>
+        </include>
+        <report>
+            <html outputDirectory="coverage" lowUpperBound="50" highLowerBound="90"/>
+        </report>
+    </coverage>
+</phpunit>

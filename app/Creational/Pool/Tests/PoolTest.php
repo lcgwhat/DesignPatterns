@@ -6,7 +6,8 @@ namespace DesignPatterns\Creational\Pool\Tests;
 use DesignPatterns\Creational\Pool\Pool;
 use PHPUnit\Framework\TestCase;
 
-class PoolTest extends TestCase
+class
+PoolTest extends TestCase
 {
     public function testPool()
     {
