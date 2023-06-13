@@ -20,5 +20,11 @@ class LeaveServiceNewTest extends TestCase
 
         $form = new LeaveForm(new Employee('李二', 1), '婚嫁', 1, 0);
         $this->service->audit($form);
+        var_dump(1);die;
+    }
+    function testCase(){
+        $form = new LeaveForm(new Employee('黄部长', 9), '世家', 10, 2);
+        $this->service->audit($form);
+        die;
     }
 }
